@@ -1,0 +1,38 @@
+-------------------------------------------
+                DUAL STACK
+-------------------------------------------
+NOMBRE: LAPTOP-00
+DIRECCION IP: ACAD:DE:FE:30::11
+VLAN: NO APLICA
+CAPA JERARQUICA: ACCESO
+CAMPUS: DUAL STACK
+SERVICIO DE RED: NO APLICA
+-------------------------------------------
+NOMBRE: SERVER-1
+DIRECCION IP: ACAD:DE:FE:30::10
+VLAN: NO APLICA
+CAPA JERARQUICA: ACCESO
+CAMPUS: DUAL STACK
+SERVICIO DE RED: NO APLICA
+-------------------------------------------
+NOMBRE: PUBLIC
+DIRECCION IP: ACAD:DE:FE:30::1
+VLAN: NO APLICA
+CAPA JERARQUICA: NUCLEO
+CAMPUS: DUAL STACK
+SERVICIO DE RED: ROUTING
+-------------------------------------------
+NOMBRE: NAT
+DIRECCION IP: ACAD:DE:FE:21::1
+VLAN: NO APLICA
+CAPA JERARQUICA: NUCLEO
+CAMPUS: DUAL STACK
+SERVICIO DE RED: ROUTING
+-------------------------------------------
+NOMBRE: NAT1
+DIRECCION IP: ACAD:DE:FE:11::1
+VLAN: NO APLICA
+CAPA JERARQUICA: NUCLEO
+CAMPUS: DUAL STACK
+SERVICIO DE RED: ROUTING
+-------------------------------------------
