@@ -20,6 +20,17 @@ def ficheros():
     files = os.listdir(directory)  #Obtiene todos los archivos de la carpeta
     txt_files = [file for file in files if file.endswith('.txt')]  #filtra solos los archivos .txt
     print(txt_files)
+    while True:
+        print("Desea Salir? \nSi.\tNo.")
+        sesion = input()
+        if sesion == "no" or sesion == "No":
+            os.system("clear")
+            print(txt_files)
+            time.sleep(10)
+        elif sesion == "si" or sesion == "Si":
+            opc = 9
+            break
+    
 
 def Nuevo_documento():
     print("Atencion: Se va a agregar un nuevo documento a la carpeta de archivos.\nFavor de no introducir el mismo nombre de alguno de los archivos.")
@@ -151,7 +162,6 @@ if Admin(username, password):  # Ingreso al programa solo con credenciales habil
         elif opc == '3':  # Leer alguno de los archivo que esten dentro del archivo pyhton.
             os.system("clear")
             leer()
-            
         elif opc == '4':  # Agregar al final de algun documento texto plano.
             os.system("clear")
             agregar()
